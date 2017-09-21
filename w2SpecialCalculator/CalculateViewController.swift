@@ -17,6 +17,15 @@ class CalculateViewController: UIViewController {
     
     var strDisplay : String?
     
+    //event handler updates label based on tag value
+    @IBAction func numButtons(sender : UIButton) {
+        
+        //based on tag value set the label
+        if sender.tag >= 0 && sender.tag < 10 {
+            strDisplay = strDisplay?.appendingFormat("%d", sender.tag)
+        }
+        updateLabel()
+    }
     
     //method to update label
     func updateLabel() {
