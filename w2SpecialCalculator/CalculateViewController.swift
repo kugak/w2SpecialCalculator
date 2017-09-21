@@ -18,12 +18,12 @@ class CalculateViewController: UIViewController {
     var strDisplay : String?
     
     //factorial method (pass in number in and return back -> int)
-    func calcFuctorial (number : Int) -> Int {
+    func calcFactorial (number : Int) -> Int {
         
         var num = number
         var ans : Int = 1
         
-        while number > 1 {
+        while num > 1 {
             ans *= num
             //-- and ++ has been removed
             num -= 1
@@ -40,7 +40,7 @@ class CalculateViewController: UIViewController {
         switch sender.tag {
             //factorial tag id
         case 13:
-            ans = Double(calcFuctorial(number: Int(num!)))
+            ans = Double(calcFactorial(number: Int(num!)))
             break
         default:
             break
@@ -55,7 +55,7 @@ class CalculateViewController: UIViewController {
     @IBAction func numButtons(sender : UIButton) {
         
         //based on tag value set the label
-        if sender.tag >= 0 && sender.tag < 10 {
+        if sender.tag >= 0 && sender.tag < 10{
             strDisplay = strDisplay?.appendingFormat("%d", sender.tag)
         }
         updateLabel()
