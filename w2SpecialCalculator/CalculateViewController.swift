@@ -70,6 +70,22 @@ class CalculateViewController: UIViewController {
             updateLabel()
             return
             
+            //sin
+        case 10:
+            //based on swtich calculate sin or arc sin
+            ans = swTrig?.isOn == true ? sin(num!) : asin(num!)
+            break
+            
+            //tan
+        case 11:
+            ans = swTrig?.isOn == true ? tan(num!) : atan(num!)
+            break
+            
+            //cos
+        case 12:
+            ans = swTrig?.isOn == true ? cos(num!) : acos(num!)
+            break
+            
         default:
             break
         }
