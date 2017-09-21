@@ -198,9 +198,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1aa-NQ-ha8">
-                                <rect key="frame" x="43" y="23" width="46" height="30"/>
+                                <rect key="frame" x="49" y="23" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="7x3-RE-uqR" kind="unwind" unwindAction="unwindToThisViewControllerWithSegue:" id="3fJ-tT-PEw"/>
                                 </connections>

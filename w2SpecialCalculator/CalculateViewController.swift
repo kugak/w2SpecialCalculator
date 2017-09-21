@@ -18,6 +18,13 @@ class CalculateViewController: UIViewController {
     var strDisplay : String?
     
     
+    //method to update label
+    func updateLabel() {
+        //? is to account for nil value term called "optional"
+        lblDisplay?.text = strDisplay
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
