@@ -42,6 +42,31 @@ class CalculateViewController: UIViewController {
         case 13:
             ans = Double(calcFactorial(number: Int(num!)))
             break
+            
+            //kg to lbs
+        case 14:
+            ans = num! / 2.2
+            break
+            
+            //km to miles
+        case 15:
+            ans = num! / 1.6
+            break
+            
+            //year to seconds
+        case 16:
+            ans = num! * 365 * 24 * 60 * 60
+            break
+            
+            //clear
+        case -2:
+            strDisplay = "0"
+            break
+            
+            //decimal
+        case -1:
+            strDisplay! += "."
+        
         default:
             break
         }

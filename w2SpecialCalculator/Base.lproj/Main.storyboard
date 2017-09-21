@@ -200,18 +200,27 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="kg-lbs"/>
+                                <connections>
+                                    <action selector="actionButtonsWithSender:" destination="gP2-HE-9kt" eventType="touchUpInside" id="cno-G0-jjQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fVr-yc-1sp">
                                 <rect key="frame" x="274" y="296" width="91" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="km-mi"/>
+                                <connections>
+                                    <action selector="actionButtonsWithSender:" destination="gP2-HE-9kt" eventType="touchUpInside" id="Auk-FZ-jdR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="16" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ena-T6-OZX">
                                 <rect key="frame" x="274" y="363" width="91" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="yr-sec"/>
+                                <connections>
+                                    <action selector="actionButtonsWithSender:" destination="gP2-HE-9kt" eventType="touchUpInside" id="7Xf-JR-kya"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anx-yh-TXC">
                                 <rect key="frame" x="249" y="497" width="100" height="50"/>
