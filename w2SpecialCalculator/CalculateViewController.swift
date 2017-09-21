@@ -17,6 +17,26 @@ class CalculateViewController: UIViewController {
     
     var strDisplay : String?
     
+    //factorial method (pass in number in and return back -> int)
+    func calcFuctorial (number : Int) -> Int {
+        
+        var num = number
+        var ans : Int = 1
+        
+        while number > 1 {
+            ans *= num
+            //-- and ++ has been removed
+            num -= 1
+        }
+        
+        return ans
+    }
+    
+    //even handler for calculations
+    @IBAction func actionButtons (sender : UIButton) {
+        
+    }
+    
     //event handler updates label based on tag value
     @IBAction func numButtons(sender : UIButton) {
         
