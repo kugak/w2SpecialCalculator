@@ -27,7 +27,10 @@ class CalculateViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        //initialize label
+        strDisplay = "0"
+        updateLabel();
+        
         // Do any additional setup after loading the view.
     }
 
