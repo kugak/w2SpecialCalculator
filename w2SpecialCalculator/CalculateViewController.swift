@@ -40,9 +40,9 @@ class CalculateViewController: UIViewController {
         switch sender.tag {
             //factorial tag id
         case 13:
-            ans = Double(calcFuctorial(number: Int(num!))
+            ans = Double(calcFuctorial(number: Int(num!)))
             break
-        default
+        default:
             break
         }
         
