@@ -34,7 +34,21 @@ class CalculateViewController: UIViewController {
     
     //even handler for calculations
     @IBAction func actionButtons (sender : UIButton) {
+        var ans = 0.0
+        let num = Double(strDisplay!)
         
+        switch sender.tag {
+            //factorial tag id
+        case 13:
+            ans = Double(calcFuctorial(number: Int(num!))
+            break
+        default
+            break
+        }
+        
+        //update display
+        strDisplay = String(ans)
+        updateLabel()
     }
     
     //event handler updates label based on tag value
