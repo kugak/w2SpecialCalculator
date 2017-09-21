@@ -61,12 +61,15 @@ class CalculateViewController: UIViewController {
             //clear
         case -2:
             strDisplay = "0"
-            break
+            updateLabel()
+            return
             
             //decimal
         case -1:
             strDisplay! += "."
-        
+            updateLabel()
+            return
+            
         default:
             break
         }
